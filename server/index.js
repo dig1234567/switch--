@@ -24,8 +24,8 @@ app.use(cors({
 }));
 
 // API Router
-app.use("/api/user", authRouter);
 app.use("/api/user/pay", payRouter);
+app.use("/api/user", authRouter);
 
 app.get("/", (req, res) => {
   res.send("歡迎來到首頁....");
