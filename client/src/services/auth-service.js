@@ -1,7 +1,10 @@
 // 所有認證Route都會經過此認證
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/user";
+const API_URL =
+  process.env.NODE_ENV === "production"
+    ? "https://switch-you-xi-shang-cheng.onrender.com/api/user"
+    : "http://localhost:10000/api/user";
 
 class AuthService {
   login(email, password) {
