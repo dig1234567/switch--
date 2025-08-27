@@ -32,7 +32,7 @@ app.get("/", (req, res) => {
 });
 
 //所有非API路由都導向index.html (支援 React Router)
-app.get("*", (req, res) => {
+app.get('/{*splat}', (req, res) => {
   res.sendFile(path.join(__dirname, "../client/build", "index.html"));
 });
 
