@@ -133,11 +133,7 @@ const GameComponent = ({ currentUser, setCurrentUser }) => {
                   <div class="game_text">一個貓咪紙版立牌</div>
                 </div>
                 <div class="item_child_right">
-                  <a
-                    onClick={() => handleBuy(product)}
-                    class="buy_btn"
-                    href="#"
-                  >
+                  <a onClick={() => handleBuy(product)} class="buy_btn">
                     立即購買
                   </a>
                 </div>
@@ -167,11 +163,7 @@ const GameComponent = ({ currentUser, setCurrentUser }) => {
                   <div class="game_text">1個貓咪紙板立牌</div>
                 </div>
                 <div class="item_child_right">
-                  <a
-                    onClick={() => handleBuy(product1)}
-                    class="buy_btn"
-                    href="#"
-                  >
+                  <a onClick={() => handleBuy(product1)} class="buy_btn">
                     立即購買
                   </a>
                 </div>
@@ -204,11 +196,7 @@ const GameComponent = ({ currentUser, setCurrentUser }) => {
                   </div>
                 </div>
                 <div class="item_child_right">
-                  <a
-                    onClick={() => handleBuy(product2)}
-                    class="buy_btn"
-                    href="#"
-                  >
+                  <a onClick={() => handleBuy(product2)} class="buy_btn">
                     立即購買
                   </a>
                 </div>
@@ -241,3 +229,4 @@ const GameComponent = ({ currentUser, setCurrentUser }) => {
 };
 
 export default GameComponent;
+
