@@ -15,7 +15,8 @@ const ShopComponent = ({ currentUser, setCurrentUser }) => {
   let [message, setMessage] = useState("");
   console.log("收到商品資料：", product); // ✅ 測試點
   if (!product) {
-    return <p>沒有收到任何商品資訊</p>;
+   alert("沒有收到任何商品資訊");
+    navigate("/");
   }
 
   const handlelogin = () => {
