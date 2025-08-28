@@ -42,6 +42,7 @@ const RegisterComponent = () => {
             type="text"
             className="form-control"
             name="username"
+            placeholder="英文名字或中文名字"
           />
         </div>
         <br />
@@ -52,6 +53,7 @@ const RegisterComponent = () => {
             type="text"
             className="form-control"
             name="email"
+            placeholder="email or gmail"
           />
         </div>
         <br />
